@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    tools:context=".wellcomePage">
+
+    <ImageView
+        android:id="@+id/loginLogo"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/logonew"
+        android:contentDescription="App Logo"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="80dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CampusAlert"
+        android:textSize="45sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="80dp"
+        android:textColor="@color/purple_700"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="News That Matters to Students..."
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@color/gray"
+        />
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Get Started"
+        android:textSize="18sp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/purple_700"
+        app:cornerRadius="20dp"
+        android:contentDescription="Start Button"
+        />
+
+</LinearLayout>
