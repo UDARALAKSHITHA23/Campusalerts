@@ -17,10 +17,7 @@
 
 
         <activity android:name=".EditUserActivity" />
-        <activity
-            android:name=".activity_news"
-            android:exported="false"
-            android:theme="@style/Theme.Campusalerts.NoActionBar" />
+
         <activity
             android:name=".ProfileActivity"
             android:exported="false"
